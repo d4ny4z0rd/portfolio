@@ -3,6 +3,8 @@ import React from "react";
 import Image from "next/image";
 import { Link } from "react-scroll/modules";
 import { HiArrowDown } from "react-icons/hi";
+import { BsArrowUpRightSquare } from "react-icons/bs";
+import Socials from "./Socials";
 
 const HeroSection = () => {
 	return (
@@ -29,6 +31,7 @@ const HeroSection = () => {
 						. Working towards creating software that makes life easier and more
 						meaningful.
 					</p>
+					<Socials />
 					<Link
 						to="projects"
 						className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700 hover:cursor-pointer"

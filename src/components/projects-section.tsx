@@ -12,6 +12,15 @@ const projects = [
 		image: "/todoiee.png",
 		github: "https://github.com/prabhavdixit/todoieeapp",
 		link: "https://todoiee.vercel.app",
+		technologies: [
+			"Nextjs 13",
+			"Clerk-Auth",
+			"Shadcn-ui",
+			"Tailwind CSS",
+			"Zod",
+			"Next-themes",
+			"TypeScript",
+		],
 	},
 	{
 		name: "Tech article app - haveabyte",
@@ -20,6 +29,20 @@ const projects = [
 		image: "/haveabyte.png",
 		github: "https://github.com/prabhavdixit/article-app",
 		link: "https://haveabyte.vercel.app",
+		technologies: [
+			"Nextjs 13",
+			"Next-Auth",
+			"Shadcn-ui",
+			"Tailwind CSS",
+			"Zod",
+			"Next-themes",
+			"TypeScript",
+			"Cloudinary",
+			"React-hot-toast",
+			"Prisma",
+			"MongoDB",
+			"Cloudinary",
+		],
 	},
 	{
 		name: "Bitter - social media",
@@ -28,6 +51,22 @@ const projects = [
 		image: "/bitter.png",
 		github: "https://github.com/prabhavdixit/bitter",
 		link: "https://boringbitter.vercel.app",
+		technologies: [
+			"Nextjs 13",
+			"Next-Auth",
+			"SWR",
+			"Tailwind CSS",
+			"Zod",
+			"Next-themes",
+			"TypeScript",
+			"React-hot-toast",
+			"Zustand",
+			"Axios",
+			"Bcrypt",
+			"Prisma",
+			"MongoDB",
+			"Cloudinary",
+		],
 	},
 	{
 		name: "Brainote",
@@ -36,6 +75,20 @@ const projects = [
 		image: "/brainote.png",
 		github: "https://github.com/prabhavdixit/brainote-final",
 		link: "https://brainote.vercel.app",
+		technologies: [
+			"Nextjs 13",
+			"Clerk-Auth",
+			"Shadcn-ui",
+			"Tailwind CSS",
+			"Zod",
+			"Next-themes",
+			"TypeScript",
+			"AI",
+			"Prisma",
+			"MongoDB",
+			"OpenAI",
+			"Pinecone",
+		],
 	},
 	{
 		name: "Saltman",
@@ -44,6 +97,24 @@ const projects = [
 		image: "/saltman.png",
 		github: "https://github.com/prabhavdixit/saltman",
 		link: "https://saltman.vercel.app",
+		technologies: [
+			"Nextjs 13",
+			"Clerk-Auth",
+			"Shadcn-ui",
+			"Tailwind CSS",
+			"Zod",
+			"Next-themes",
+			"TypeScript",
+			"OpenAI",
+			"Prisma",
+			"Axios",
+			"React-hot-toast",
+			"Stripe",
+			"Zod",
+			"Zustand",
+			"Crisp",
+			"Postgres",
+		],
 	},
 ];
 
@@ -77,6 +148,13 @@ const ProjectsSection = () => {
 										<p className="text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
 											{project.description}
 										</p>
+										<div className="text-center md:text-left">
+											<div className="text-xl font-bold mb-6 text-blue-500 gap-2">
+												<p className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-blue-500 rounded font-semibold">
+													{project.technologies.join(" ")}
+												</p>
+											</div>
+										</div>
 										<div className="flex flex-row align-bottom space-x-4">
 											<Link href={project.github} target="_blank">
 												<BsGithub

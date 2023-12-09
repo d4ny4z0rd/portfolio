@@ -24,7 +24,7 @@ const skills = [
 	{ skill: "Docker" },
 	{ skill: "Prisma" },
 	{ skill: "Nodejs" },
-	{ skill: "Expresss" },
+	{ skill: "Express" },
 	{ skill: "Next-auth" },
 ];
 
