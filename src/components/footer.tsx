@@ -16,7 +16,7 @@ const Footer = () => {
 				</div>
 				<div className="flex flex-row items-center justify-center space-x-2 mb-1">
 					<a
-						href="https://github.com/prabhavdixit"
+						href="https://github.com/d4ny4z0rd"
 						rel="noreferrer"
 						target="_blank">
 						<AiOutlineGithub
