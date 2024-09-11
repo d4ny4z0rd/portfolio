@@ -32,7 +32,7 @@ const Socials = () => {
 			<div className="flex flex-row gap-2">
 				<p className="text-xl my-4 text-blue-500">Linkedin</p>
 				<Link
-					href={"https://www.linkedin.com/in/prabhav-dixit-779a15274/"}
+					href={"https://www.linkedin.com/in/sam-ctrlman-779a15274/"}
 					target="_blank"
 					className="py-4">
 					<BsArrowUpRightSquare
